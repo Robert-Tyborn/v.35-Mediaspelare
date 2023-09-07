@@ -1,0 +1,61 @@
+
+img {
+    
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+
+    
+}
+
+.box {
+    
+    /* border-style:solidZ */
+    /* border-width: 0px thin thin; */
+  box-shadow:
+    /* inset 0 -3em 3em rgba(0, 0, 0, 0.1), */
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+}
+
+.song {
+    font-size: 25px;
+    font-weight:bold;
+
+
+}
+
+.artist {
+    color: rgba(128, 128, 128, 0.38);
+    font-size: 23px;
+    font-weight:bold;
+}
+
+.player {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+
+hr {
+    height: 1px;
+    border-width: 2px;
+}
+
+section {
+    margin: auto;
+}
